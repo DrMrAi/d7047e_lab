@@ -1,0 +1,11 @@
+Compare the performance of the two models and explain in which scenarios you would
+prefer one over the other.
+On smaller datasets with shorter sentences the ANN has the best accuracy and is more robust in regards to 
+overfitting. It is also quicker to train. For the bigger dataset the transformer and LSTM gets better accuracy.
+
+• How did the two models’ complexity, accuracy, and efficiency differ? Did one model
+outperform the other in specific scenarios or tasks? If so, why?
+
+
+• What insights did you obtain concerning data amount to train? Embedding utilized?
+Architectural choices made?
