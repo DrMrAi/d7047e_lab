@@ -1,0 +1,56 @@
+
+task 0.2.2: 
+Run 1 - Training on MNIST...
+  Epoch 1/20, Loss: 0.140
+  Epoch 2/20, Loss: 0.040
+  Epoch 3/20, Loss: 0.026
+  Epoch 4/20, Loss: 0.019
+  Epoch 5/20, Loss: 0.014
+  Epoch 6/20, Loss: 0.013
+  Epoch 7/20, Loss: 0.010
+  Epoch 8/20, Loss: 0.009
+  Epoch 9/20, Loss: 0.008
+  Epoch 10/20, Loss: 0.006
+  Epoch 11/20, Loss: 0.005
+  Epoch 12/20, Loss: 0.007
+  Epoch 13/20, Loss: 0.005
+  Epoch 14/20, Loss: 0.004
+  Epoch 15/20, Loss: 0.005
+  Epoch 16/20, Loss: 0.003
+  Epoch 17/20, Loss: 0.006
+  Epoch 18/20, Loss: 0.003
+  Epoch 19/20, Loss: 0.004
+  Epoch 20/20, Loss: 0.005
+Run 1 - MNIST Accuracy: 99.1600%
+Run 2 - MNIST model on SVHN (no fine-tuning): 33.6701%
+
+Run 3 - Fine-tuning on SVHN (transfer learning)...
+  Epoch 1/20, Loss: 1.022
+  Epoch 2/20, Loss: 0.678
+  Epoch 3/20, Loss: 0.564
+  Epoch 4/20, Loss: 0.487
+  Epoch 5/20, Loss: 0.429
+  Epoch 6/20, Loss: 0.382
+  Epoch 7/20, Loss: 0.343
+  Epoch 8/20, Loss: 0.309
+  Epoch 9/20, Loss: 0.281
+  Epoch 10/20, Loss: 0.256
+  Epoch 11/20, Loss: 0.234
+  Epoch 12/20, Loss: 0.215
+  Epoch 13/20, Loss: 0.199
+  Epoch 14/20, Loss: 0.183
+  Epoch 15/20, Loss: 0.171
+  Epoch 16/20, Loss: 0.159
+  Epoch 17/20, Loss: 0.148
+  Epoch 18/20, Loss: 0.137
+  Epoch 19/20, Loss: 0.132
+  Epoch 20/20, Loss: 0.121
+Run 3 - SVHN Accuracy (Transfer): 82.1681%
+
+--- Results Summary ---
+Run 1 | MNIST model on MNIST:              99.1600%
+Run 2 | MNIST model on SVHN (no training): 33.6701%
+Run 3 | MNIST model on SVHN (fine-tuned):  82.1681%
+
+
+
