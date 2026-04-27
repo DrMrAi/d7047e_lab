@@ -5,7 +5,16 @@ overfitting. It is also quicker to train. For the bigger dataset the transformer
 
 • How did the two models’ complexity, accuracy, and efficiency differ? Did one model
 outperform the other in specific scenarios or tasks? If so, why?
+ANN is quicker to train on the CPU. The Transformer became much better using GPU due to its parallelization. LSTM can see meaning from both directions. The ANN was more robust to overfitting on the small dataset but didn't even start to converge on the large dataset. 
 
 
 • What insights did you obtain concerning data amount to train? Embedding utilized?
 Architectural choices made?
+Early stopping is very important for the transformer on the small dataset. Learning rate for ANN and LSTM didn't make much difference. ANN is using TF-IDF. Transformers has to keep the sequential pattern. 
+
+BCEwithlogitsloss (1 output neuron)
+Same splits, gpu acceleration
+
+gör modellen större för ANN göra TF-IDF mindre
+Förklara hur en transformer funkar vad är alternativet till mean i "return self.fc(x.mean(dim=1))"
+
